@@ -48,7 +48,7 @@ body{
     height: 80%;
 }
 .header-button{
-    background-color: #e55473;
+    background-color: #da657e;
     padding: 10px 20px 10px 20px;
     border-radius: 10px;
     font-weight: 700;
@@ -153,4 +153,43 @@ body{
         width: 33%;
 }
 
+.hotDealMain{
+    display: flex;
+    justify-content: center;
+    background-color: #f7d7dd;
+    margin-top: 100px;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+.hotDealText{
+    width: 50%;
+    text-align: center;
+}
+.dealSpan{
+    color: #e55473;
+}
+.hotDealImage{
+    display: flex;
+    justify-content: center;
+}
+.dealButton{
+    
+            background-color: #da657e;
+            padding: 10px 20px 10px 20px;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 16px;
+            margin-top: 20px;
+            box-shadow: 2px 2px 2px black;
+            cursor: pointer;
+            transition: transform 0.3s;
+            color: white;
+}
+
+.dealButton:hover,
+.dealButton:active {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
 
