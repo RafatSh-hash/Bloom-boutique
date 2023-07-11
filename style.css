@@ -282,14 +282,16 @@ body{
     padding: 20px;
 }
 .userImg{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 2px 2px 2px gray;
 }
 .user{
     display: flex;
     align-items: center;
-    background-color: #e7bac4;
+    background-color: #f7d7dd;
     gap: 20px;
     margin: 20px;
     padding: 20px;
