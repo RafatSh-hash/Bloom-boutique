@@ -432,3 +432,22 @@ body{
     color: #e55473;
     direction: rtl;
 }
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #c9c9c9;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #df7b91;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a94f63;
+}
